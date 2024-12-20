@@ -8,12 +8,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <meta property='twitter:card' content='summary' data-rh="true"/>
-      <meta property='twitter:title' content='从Vercel跳转过来' data-rh="true"/>
-      <meta property='twitter:text:title' content='来自Vercel' data-rh="true"/>
-      <meta property='og:title' content='从og跳转过来' data-rh="true"/>
-      <meta name="twitter:image:src" property="twitter:image:src" content="https://i.pinimg.com/736x/2b/35/fd/2b35fd1080bd1fec4d93f29fbf85b485.jpg"/>
-      <meta data-app="true" name="og:image" property="og:image" content="https://s.pinimg.com/images/facebook_share_image.png"/>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@nytimesbits" />
+    <meta name="twitter:creator" content="@nickbilton" />
+    <meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
+    <meta property="og:title" content="A Twitter for My Sister" />
+    <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
+    <meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" />
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
