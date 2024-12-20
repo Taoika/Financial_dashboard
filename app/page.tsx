@@ -8,6 +8,7 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
+      <a href="1. https://x.com/intent/post?via=finicial&url=https://financial-dashboard-zeta-three.vercel.app/">To X</a>
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         <AcmeLogo/>
       </div>
