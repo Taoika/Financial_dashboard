@@ -8,10 +8,6 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
-      {/* <a href="https://x.com/intent/post?via=taoika&url=https://financial-dashboard-zeta-three.vercel.app/">To X</a>
-      <video width="600" controls> 
-        <source src="https://ams-cdn.x-peng.com/www/public/static/vd/home-p1.1c36c0a4.mp4" type="video/mp4" /> Your browser does not support the video tag. 
-      </video> */}
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         <AcmeLogo/>
       </div>
